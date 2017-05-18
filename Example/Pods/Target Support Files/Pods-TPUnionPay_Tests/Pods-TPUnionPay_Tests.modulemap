@@ -1,0 +1,6 @@
+framework module Pods_TPUnionPay_Tests {
+  umbrella header "Pods-TPUnionPay_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

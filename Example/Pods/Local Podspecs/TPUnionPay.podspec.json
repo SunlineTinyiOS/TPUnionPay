@@ -1,0 +1,22 @@
+{
+  "name": "TPUnionPay",
+  "version": "0.1.0",
+  "summary": "A short description of TPUnionPay.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/kingdomrain/TPUnionPay",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "kingdomrain": "bygd2014@sina.com"
+  },
+  "source": {
+    "git": "https://github.com/kingdomrain/TPUnionPay.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "TPUnionPay/Classes/**/*"
+}

@@ -1,0 +1,6 @@
+framework module TPUnionPay {
+  umbrella header "TPUnionPay-umbrella.h"
+
+  export *
+  module * { export * }
+}

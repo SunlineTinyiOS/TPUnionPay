@@ -1,0 +1,769 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		435BB34230A3188AF6612CCE91565C01 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		4568A677BAAA749AE5E7559E7229067C /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F69B3EFDD7A8A94C93A6BCA584322C2 /* ReplaceMe.m */; };
+		48B181663A5902989028E505DC497CF9 /* Pods-TPUnionPay_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C07DAADC193408C09B57B63EF994919C /* Pods-TPUnionPay_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		493FBBBD6ADE179C071C5E472957D5FF /* TPUnionPay-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C51E52C303D54F2D2FCF55D764B3F0E3 /* TPUnionPay-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8DC510971A63A94B09B8FF88A38A809A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		9B6CCA47E579D2171C1E3A31BE8D72E4 /* TPUnionPay-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DEBFF190CE2E43076DC371B2F281F2DC /* TPUnionPay-dummy.m */; };
+		AAE59B07DFBCCF17E7D2D5D30F401F62 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		AE4069151E54030A008E56C2 /* UPPaymentControl.h in Headers */ = {isa = PBXBuildFile; fileRef = AE4069121E54030A008E56C2 /* UPPaymentControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE4069161E54030A008E56C2 /* libPaymentControl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AE4069141E54030A008E56C2 /* libPaymentControl.a */; };
+		AE4069181E54033D008E56C2 /* UPPaymentControl.h in Headers */ = {isa = PBXBuildFile; fileRef = AE4069171E54033D008E56C2 /* UPPaymentControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE40691A1E540392008E56C2 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE4069191E540392008E56C2 /* CFNetwork.framework */; };
+		AE40691C1E5403A6008E56C2 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE40691B1E5403A6008E56C2 /* SystemConfiguration.framework */; };
+		AE40691E1E5403DD008E56C2 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = AE40691D1E5403DD008E56C2 /* libz.tbd */; };
+		AE4069201E540415008E56C2 /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = AE40691F1E540415008E56C2 /* libstdc++.tbd */; };
+		B57C49FA7B301BD9A171F83C1D92597A /* TPUnionPay.h in Headers */ = {isa = PBXBuildFile; fileRef = 59ED3610A82F4641070066C8A66CCDEC /* TPUnionPay.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B634464E6DB8FD5145D6AA3FB7132ABD /* Pods-TPUnionPay_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 53D3AD04EAFC0735FFECC831BB68E5CF /* Pods-TPUnionPay_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D00924954B297E3B0CA53A2CFCD46FA4 /* Pods-TPUnionPay_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E900E57747AA49E64F6D6B0189E7FAC1 /* Pods-TPUnionPay_Example-dummy.m */; };
+		EBA1F3BC7F1A48D164348E9956B56DE7 /* TPUnionPay.mm in Sources */ = {isa = PBXBuildFile; fileRef = CFE306A90515F98D15FD4B323AEFE565 /* TPUnionPay.mm */; };
+		F66D759FDEF71CA85BB1471FF5A86E67 /* Pods-TPUnionPay_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D20BEB8F2A5EB3F576BE29C140DAAF /* Pods-TPUnionPay_Tests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8720EDEB458AB155860BA88523C11543 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1033028D0E95E53D6927BDDFE28A446C;
+			remoteInfo = TPUnionPay;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1875E8C901CE2DCDF4C916774DE32BC5 /* Pods-TPUnionPay_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TPUnionPay_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		18D20BEB8F2A5EB3F576BE29C140DAAF /* Pods-TPUnionPay_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TPUnionPay_Tests-dummy.m"; sourceTree = "<group>"; };
+		1CC23C8075CAB6D9F288E248FB6F5B95 /* Pods-TPUnionPay_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TPUnionPay_Example-frameworks.sh"; sourceTree = "<group>"; };
+		2D9604E3DE09019F2A4FBC9BA5565EBE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		313F4310D2CA73ABEB8C67BC3FA5DA33 /* Pods-TPUnionPay_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TPUnionPay_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		3968B9175E63315B2D99077408871017 /* Pods-TPUnionPay_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TPUnionPay_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		51D7B09FFEBC72B4F0E11C80BB2B43A5 /* TPUnionPay.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TPUnionPay.xcconfig; sourceTree = "<group>"; };
+		53D3AD04EAFC0735FFECC831BB68E5CF /* Pods-TPUnionPay_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TPUnionPay_Tests-umbrella.h"; sourceTree = "<group>"; };
+		5721BF9C694E0889A44CA3A46352EF3E /* Pods-TPUnionPay_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TPUnionPay_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		59ED3610A82F4641070066C8A66CCDEC /* TPUnionPay.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TPUnionPay.h; sourceTree = "<group>"; };
+		6118C48C441096D411ED36054092F601 /* Pods-TPUnionPay_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TPUnionPay_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		633AA43E6386561F6029F270C98ED9B0 /* Pods-TPUnionPay_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TPUnionPay_Example.modulemap"; sourceTree = "<group>"; };
+		642AC0B2D3E629F3547CC2381162BFF5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68F1C267332ECD710476A375B2E428DA /* Pods-TPUnionPay_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TPUnionPay_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		6CFE445257D25304ACB9C78DB829807D /* Pods_TPUnionPay_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TPUnionPay_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		72A02CBD6AFFA097C4173C84D804700D /* Pods-TPUnionPay_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TPUnionPay_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		821115AB448E32E428725952E533C598 /* TPUnionPay-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TPUnionPay-prefix.pch"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		96D53D6BB343DFCC25543FE80A105428 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		97778BC2F7FFB24EACF5ACE1A2500E30 /* Pods-TPUnionPay_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TPUnionPay_Tests.modulemap"; sourceTree = "<group>"; };
+		9F69B3EFDD7A8A94C93A6BCA584322C2 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
+		A770C2CE7FBFD41ADCA2FBF27693F72C /* Pods-TPUnionPay_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TPUnionPay_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		AE4069121E54030A008E56C2 /* UPPaymentControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPPaymentControl.h; sourceTree = "<group>"; };
+		AE4069141E54030A008E56C2 /* libPaymentControl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libPaymentControl.a; sourceTree = "<group>"; };
+		AE4069171E54033D008E56C2 /* UPPaymentControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPPaymentControl.h; sourceTree = "<group>"; };
+		AE4069191E540392008E56C2 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.2.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
+		AE40691B1E5403A6008E56C2 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.2.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		AE40691D1E5403DD008E56C2 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.2.sdk/usr/lib/libz.tbd; sourceTree = DEVELOPER_DIR; };
+		AE40691F1E540415008E56C2 /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.2.sdk/usr/lib/libstdc++.tbd"; sourceTree = DEVELOPER_DIR; };
+		AEBB94B152FEF04E387B2861B8304ECB /* TPUnionPay.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = TPUnionPay.modulemap; sourceTree = "<group>"; };
+		B1FE2A4403F9A2DDEC4A2F7EF386E954 /* Pods-TPUnionPay_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TPUnionPay_Example.release.xcconfig"; sourceTree = "<group>"; };
+		BF703570E09B5839ADCCDCBA9634880D /* Pods-TPUnionPay_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TPUnionPay_Example-resources.sh"; sourceTree = "<group>"; };
+		C07DAADC193408C09B57B63EF994919C /* Pods-TPUnionPay_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TPUnionPay_Example-umbrella.h"; sourceTree = "<group>"; };
+		C3D0F6A869A82FC0571C537EC03A939B /* TPUnionPay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TPUnionPay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C51E52C303D54F2D2FCF55D764B3F0E3 /* TPUnionPay-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TPUnionPay-umbrella.h"; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CFE306A90515F98D15FD4B323AEFE565 /* TPUnionPay.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; path = TPUnionPay.mm; sourceTree = "<group>"; };
+		DEBFF190CE2E43076DC371B2F281F2DC /* TPUnionPay-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TPUnionPay-dummy.m"; sourceTree = "<group>"; };
+		E5983C6DE680B1AB70CBEAD0E79FBF57 /* Pods_TPUnionPay_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TPUnionPay_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E900E57747AA49E64F6D6B0189E7FAC1 /* Pods-TPUnionPay_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TPUnionPay_Example-dummy.m"; sourceTree = "<group>"; };
+		EEB6E1081F78C54D31A93E5058438502 /* Pods-TPUnionPay_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TPUnionPay_Tests-resources.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1B03CF010614192D77FB65FFE45F0DDE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAE59B07DFBCCF17E7D2D5D30F401F62 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B2FCBACE15CD7ABCE670222A34342BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE4069201E540415008E56C2 /* libstdc++.tbd in Frameworks */,
+				AE40691E1E5403DD008E56C2 /* libz.tbd in Frameworks */,
+				AE40691C1E5403A6008E56C2 /* SystemConfiguration.framework in Frameworks */,
+				AE40691A1E540392008E56C2 /* CFNetwork.framework in Frameworks */,
+				AE4069161E54030A008E56C2 /* libPaymentControl.a in Frameworks */,
+				435BB34230A3188AF6612CCE91565C01 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		704A883DA89620F835FDB8AD5E3C896D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DC510971A63A94B09B8FF88A38A809A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0AB31D611E647C19F3BDF6EFAAE3DD61 /* TPUnionPay */ = {
+			isa = PBXGroup;
+			children = (
+				CD2193484EFF45D6D22857743DE8469E /* Classes */,
+			);
+			path = TPUnionPay;
+			sourceTree = "<group>";
+		};
+		36F33EE8D7723E6FB9FBA2C2820F6878 /* Pods-TPUnionPay_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				2D9604E3DE09019F2A4FBC9BA5565EBE /* Info.plist */,
+				97778BC2F7FFB24EACF5ACE1A2500E30 /* Pods-TPUnionPay_Tests.modulemap */,
+				3968B9175E63315B2D99077408871017 /* Pods-TPUnionPay_Tests-acknowledgements.markdown */,
+				313F4310D2CA73ABEB8C67BC3FA5DA33 /* Pods-TPUnionPay_Tests-acknowledgements.plist */,
+				18D20BEB8F2A5EB3F576BE29C140DAAF /* Pods-TPUnionPay_Tests-dummy.m */,
+				72A02CBD6AFFA097C4173C84D804700D /* Pods-TPUnionPay_Tests-frameworks.sh */,
+				EEB6E1081F78C54D31A93E5058438502 /* Pods-TPUnionPay_Tests-resources.sh */,
+				53D3AD04EAFC0735FFECC831BB68E5CF /* Pods-TPUnionPay_Tests-umbrella.h */,
+				6118C48C441096D411ED36054092F601 /* Pods-TPUnionPay_Tests.debug.xcconfig */,
+				5721BF9C694E0889A44CA3A46352EF3E /* Pods-TPUnionPay_Tests.release.xcconfig */,
+			);
+			name = "Pods-TPUnionPay_Tests";
+			path = "Target Support Files/Pods-TPUnionPay_Tests";
+			sourceTree = "<group>";
+		};
+		57105A39E308CBFE8C86B44A25615FA2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6CFE445257D25304ACB9C78DB829807D /* Pods_TPUnionPay_Example.framework */,
+				E5983C6DE680B1AB70CBEAD0E79FBF57 /* Pods_TPUnionPay_Tests.framework */,
+				C3D0F6A869A82FC0571C537EC03A939B /* TPUnionPay.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		62D46CC9CAFECA28746E2BF65A4E9824 /* Pods-TPUnionPay_Example */ = {
+			isa = PBXGroup;
+			children = (
+				96D53D6BB343DFCC25543FE80A105428 /* Info.plist */,
+				633AA43E6386561F6029F270C98ED9B0 /* Pods-TPUnionPay_Example.modulemap */,
+				1875E8C901CE2DCDF4C916774DE32BC5 /* Pods-TPUnionPay_Example-acknowledgements.markdown */,
+				68F1C267332ECD710476A375B2E428DA /* Pods-TPUnionPay_Example-acknowledgements.plist */,
+				E900E57747AA49E64F6D6B0189E7FAC1 /* Pods-TPUnionPay_Example-dummy.m */,
+				1CC23C8075CAB6D9F288E248FB6F5B95 /* Pods-TPUnionPay_Example-frameworks.sh */,
+				BF703570E09B5839ADCCDCBA9634880D /* Pods-TPUnionPay_Example-resources.sh */,
+				C07DAADC193408C09B57B63EF994919C /* Pods-TPUnionPay_Example-umbrella.h */,
+				A770C2CE7FBFD41ADCA2FBF27693F72C /* Pods-TPUnionPay_Example.debug.xcconfig */,
+				B1FE2A4403F9A2DDEC4A2F7EF386E954 /* Pods-TPUnionPay_Example.release.xcconfig */,
+			);
+			name = "Pods-TPUnionPay_Example";
+			path = "Target Support Files/Pods-TPUnionPay_Example";
+			sourceTree = "<group>";
+		};
+		647088EAEC4BFE9360986777EA7F0A25 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CE41C879091933260BFD66AC62FF0246 /* TPUnionPay */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		647E4C4A162AE9BA38E05735CBCA87BE /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				62D46CC9CAFECA28746E2BF65A4E9824 /* Pods-TPUnionPay_Example */,
+				36F33EE8D7723E6FB9FBA2C2820F6878 /* Pods-TPUnionPay_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				647088EAEC4BFE9360986777EA7F0A25 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				57105A39E308CBFE8C86B44A25615FA2 /* Products */,
+				647E4C4A162AE9BA38E05735CBCA87BE /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		AE4069101E54030A008E56C2 /* paymentcontrol */ = {
+			isa = PBXGroup;
+			children = (
+				AE4069111E54030A008E56C2 /* inc */,
+				AE4069131E54030A008E56C2 /* libs */,
+			);
+			path = paymentcontrol;
+			sourceTree = "<group>";
+		};
+		AE4069111E54030A008E56C2 /* inc */ = {
+			isa = PBXGroup;
+			children = (
+				AE4069121E54030A008E56C2 /* UPPaymentControl.h */,
+			);
+			path = inc;
+			sourceTree = "<group>";
+		};
+		AE4069131E54030A008E56C2 /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				AE4069141E54030A008E56C2 /* libPaymentControl.a */,
+			);
+			path = libs;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AE40691F1E540415008E56C2 /* libstdc++.tbd */,
+				AE40691D1E5403DD008E56C2 /* libz.tbd */,
+				AE40691B1E5403A6008E56C2 /* SystemConfiguration.framework */,
+				AE4069191E540392008E56C2 /* CFNetwork.framework */,
+				AE4069101E54030A008E56C2 /* paymentcontrol */,
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CD2193484EFF45D6D22857743DE8469E /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				AE4069171E54033D008E56C2 /* UPPaymentControl.h */,
+				9F69B3EFDD7A8A94C93A6BCA584322C2 /* ReplaceMe.m */,
+				59ED3610A82F4641070066C8A66CCDEC /* TPUnionPay.h */,
+				CFE306A90515F98D15FD4B323AEFE565 /* TPUnionPay.mm */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		CE41C879091933260BFD66AC62FF0246 /* TPUnionPay */ = {
+			isa = PBXGroup;
+			children = (
+				EC0BE74511E580B9D0DB1255BD4AC1A1 /* Support Files */,
+				0AB31D611E647C19F3BDF6EFAAE3DD61 /* TPUnionPay */,
+			);
+			name = TPUnionPay;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		EC0BE74511E580B9D0DB1255BD4AC1A1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				642AC0B2D3E629F3547CC2381162BFF5 /* Info.plist */,
+				AEBB94B152FEF04E387B2861B8304ECB /* TPUnionPay.modulemap */,
+				51D7B09FFEBC72B4F0E11C80BB2B43A5 /* TPUnionPay.xcconfig */,
+				DEBFF190CE2E43076DC371B2F281F2DC /* TPUnionPay-dummy.m */,
+				821115AB448E32E428725952E533C598 /* TPUnionPay-prefix.pch */,
+				C51E52C303D54F2D2FCF55D764B3F0E3 /* TPUnionPay-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/TPUnionPay";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1710D2D1E357699C85AAA32540337406 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48B181663A5902989028E505DC497CF9 /* Pods-TPUnionPay_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C3AE657C1EB07623086684B236EECAF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE4069181E54033D008E56C2 /* UPPaymentControl.h in Headers */,
+				AE4069151E54030A008E56C2 /* UPPaymentControl.h in Headers */,
+				493FBBBD6ADE179C071C5E472957D5FF /* TPUnionPay-umbrella.h in Headers */,
+				B57C49FA7B301BD9A171F83C1D92597A /* TPUnionPay.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B498E4BD9D456AA088BED038EFE60E3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B634464E6DB8FD5145D6AA3FB7132ABD /* Pods-TPUnionPay_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1033028D0E95E53D6927BDDFE28A446C /* TPUnionPay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C358FDEF74B5FECEC459DCDA85A4D74B /* Build configuration list for PBXNativeTarget "TPUnionPay" */;
+			buildPhases = (
+				B0567EC3D3A75ACEC824D66918F7055C /* Sources */,
+				5B2FCBACE15CD7ABCE670222A34342BC /* Frameworks */,
+				5C3AE657C1EB07623086684B236EECAF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TPUnionPay;
+			productName = TPUnionPay;
+			productReference = C3D0F6A869A82FC0571C537EC03A939B /* TPUnionPay.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3F17491A5401F96B5A055A98EACC2835 /* Pods-TPUnionPay_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A5DDAFA285860B254E22174458ACED0 /* Build configuration list for PBXNativeTarget "Pods-TPUnionPay_Example" */;
+			buildPhases = (
+				34C9787485F9810EC98640069684C95C /* Sources */,
+				704A883DA89620F835FDB8AD5E3C896D /* Frameworks */,
+				1710D2D1E357699C85AAA32540337406 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				32EA731FF8F93449EB861189077C6314 /* PBXTargetDependency */,
+			);
+			name = "Pods-TPUnionPay_Example";
+			productName = "Pods-TPUnionPay_Example";
+			productReference = 6CFE445257D25304ACB9C78DB829807D /* Pods_TPUnionPay_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E528EA420091190B650FE858D99D1CB7 /* Pods-TPUnionPay_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E5222D4FC63276C9DD7A9E306779248D /* Build configuration list for PBXNativeTarget "Pods-TPUnionPay_Tests" */;
+			buildPhases = (
+				8575135B67979C2181927F73C9A3601E /* Sources */,
+				1B03CF010614192D77FB65FFE45F0DDE /* Frameworks */,
+				8B498E4BD9D456AA088BED038EFE60E3 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-TPUnionPay_Tests";
+			productName = "Pods-TPUnionPay_Tests";
+			productReference = E5983C6DE680B1AB70CBEAD0E79FBF57 /* Pods_TPUnionPay_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 57105A39E308CBFE8C86B44A25615FA2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F17491A5401F96B5A055A98EACC2835 /* Pods-TPUnionPay_Example */,
+				E528EA420091190B650FE858D99D1CB7 /* Pods-TPUnionPay_Tests */,
+				1033028D0E95E53D6927BDDFE28A446C /* TPUnionPay */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		34C9787485F9810EC98640069684C95C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D00924954B297E3B0CA53A2CFCD46FA4 /* Pods-TPUnionPay_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8575135B67979C2181927F73C9A3601E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F66D759FDEF71CA85BB1471FF5A86E67 /* Pods-TPUnionPay_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0567EC3D3A75ACEC824D66918F7055C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4568A677BAAA749AE5E7559E7229067C /* ReplaceMe.m in Sources */,
+				9B6CCA47E579D2171C1E3A31BE8D72E4 /* TPUnionPay-dummy.m in Sources */,
+				EBA1F3BC7F1A48D164348E9956B56DE7 /* TPUnionPay.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		32EA731FF8F93449EB861189077C6314 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TPUnionPay;
+			target = 1033028D0E95E53D6927BDDFE28A446C /* TPUnionPay */;
+			targetProxy = 8720EDEB458AB155860BA88523C11543 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0904CDF65D135DC742779B6921560044 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51D7B09FFEBC72B4F0E11C80BB2B43A5 /* TPUnionPay.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TPUnionPay/TPUnionPay-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TPUnionPay/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/paymentcontrol/libs",
+				);
+				MODULEMAP_FILE = "Target Support Files/TPUnionPay/TPUnionPay.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = TPUnionPay;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		0CB787B243C3BFC5A25E97BE33A55CC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1FE2A4403F9A2DDEC4A2F7EF386E954 /* Pods-TPUnionPay_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TPUnionPay_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TPUnionPay_Example/Pods-TPUnionPay_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TPUnionPay_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		645F01692301D42F78DD9B685AB1EDF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51D7B09FFEBC72B4F0E11C80BB2B43A5 /* TPUnionPay.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TPUnionPay/TPUnionPay-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TPUnionPay/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/paymentcontrol/libs",
+				);
+				MODULEMAP_FILE = "Target Support Files/TPUnionPay/TPUnionPay.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = TPUnionPay;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6D5CD5EB6F9EC9A00972BA27C0871956 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5721BF9C694E0889A44CA3A46352EF3E /* Pods-TPUnionPay_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TPUnionPay_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TPUnionPay_Tests/Pods-TPUnionPay_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TPUnionPay_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		755CC47CF769DD4F3650058ED82BCD8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A770C2CE7FBFD41ADCA2FBF27693F72C /* Pods-TPUnionPay_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TPUnionPay_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TPUnionPay_Example/Pods-TPUnionPay_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TPUnionPay_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8DED8AD26D381A6ACFF202E5217EC498 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9E1E4E48AF2EAB23169E611BF694090A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9F6E0BA9EE8D4A25BC49DDED10FB3307 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6118C48C441096D411ED36054092F601 /* Pods-TPUnionPay_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TPUnionPay_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TPUnionPay_Tests/Pods-TPUnionPay_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TPUnionPay_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E1E4E48AF2EAB23169E611BF694090A /* Debug */,
+				8DED8AD26D381A6ACFF202E5217EC498 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A5DDAFA285860B254E22174458ACED0 /* Build configuration list for PBXNativeTarget "Pods-TPUnionPay_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				755CC47CF769DD4F3650058ED82BCD8E /* Debug */,
+				0CB787B243C3BFC5A25E97BE33A55CC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C358FDEF74B5FECEC459DCDA85A4D74B /* Build configuration list for PBXNativeTarget "TPUnionPay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				645F01692301D42F78DD9B685AB1EDF8 /* Debug */,
+				0904CDF65D135DC742779B6921560044 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E5222D4FC63276C9DD7A9E306779248D /* Build configuration list for PBXNativeTarget "Pods-TPUnionPay_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F6E0BA9EE8D4A25BC49DDED10FB3307 /* Debug */,
+				6D5CD5EB6F9EC9A00972BA27C0871956 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

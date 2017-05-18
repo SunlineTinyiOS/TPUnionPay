@@ -1,0 +1,16 @@
+PODS:
+  - TPUnionPay (0.1.0)
+
+DEPENDENCIES:
+  - TPUnionPay (from `../`)
+
+EXTERNAL SOURCES:
+  TPUnionPay:
+    :path: ../
+
+SPEC CHECKSUMS:
+  TPUnionPay: cdf883989d03353dcee45e860ef6b7dcaf8c4021
+
+PODFILE CHECKSUM: ac51feda90a91fee59ab64527712e6e23892ad7f
+
+COCOAPODS: 1.1.1

@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'TPUnionPay_Example' do
+  pod 'TPUnionPay', :path => '../'
+
+  target 'TPUnionPay_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
