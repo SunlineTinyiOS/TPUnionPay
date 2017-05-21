@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TPUnionPay'
-  s.version          = '0.0.1'
+  s.version          = '1.0.1'
   s.summary          = '银联支付'
 
 # This description is used to generate tags and improve search results.
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  tinyBuilder平台封装的通联支付
                        DESC
 
   s.homepage         = 'https://github.com/SunlineTinyiOS/TPUnionPay'
@@ -38,10 +38,7 @@ TODO: Add long description of the pod here.
 
   #s.public_header_files = 'Pod/Classes/**/*.h'
   s.frameworks = "Foundation", "UIKit", "CFNetwork", "SystemConfiguration"
-
   s.libraries = "z", "stdc++"
   s.vendored_libraries = "TPUnionPay/Assets/libPaymentControl.a"
-
-
   # s.dependency 'AFNetworking', '~> 2.3'
 end

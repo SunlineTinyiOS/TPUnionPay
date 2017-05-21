@@ -12,12 +12,19 @@
 
 @implementation TPUnionPay
 @synthesize tn;
+@synthesize mode;
 @synthesize success;
 @synthesize error;
 
 -(id)init{
     if(self = [super init]) {
-          self.viewController  = [UIApplication sharedApplication].keyWindow.rootViewController;
+        Class TinyPlus=NSClassFromString(@"TinyPlus");
+        if(TinyPlus){
+            id tinyPlusInPod  =  [[TinyPlus alloc] init];
+            if([tinyPlusInPod respondsToSelector:@selector(getViewController)]){
+                self.viewController =[tinyPlusInPod performSelector:@selector(getViewController)];
+            }
+        }
     }
     return self;
 }
@@ -30,7 +37,7 @@
         [[UPPaymentControl defaultControl]
          startPay:tn
          fromScheme:@"UPPayDemo"
-         mode:@"01"
+         mode:mode
          viewController:self.viewController];
     }
     [[NSNotificationCenter defaultCenter]  addObserver:self selector:@selector (WXPaySuccess) name:@"WXPaySuccess" object:nil];
@@ -44,8 +51,6 @@
         [self.success callWithArguments:@[@"成功"]];
         success = nil;
         error = nil;
-        [[NSNotificationCenter defaultCenter] removeObserver:self name:@"WXPaySuccess" object:nil];
-        [[NSNotificationCenter defaultCenter] removeObserver:self name:@"WXPayError" object:nil];
     }
 }
 
@@ -55,15 +60,13 @@
         [self.error callWithArguments:@[@"失败"]];
         success = nil;
         error = nil;
-        [[NSNotificationCenter defaultCenter] removeObserver:self name:@"WXPaySuccess" object:nil];
-        [[NSNotificationCenter defaultCenter] removeObserver:self name:@"WXPayError" object:nil];
-        
     }
 }
 
 -(void)dealloc
 {
-
+    [[NSNotificationCenter defaultCenter] removeObserver:self name:@"WXPaySuccess" object:nil];
+    [[NSNotificationCenter defaultCenter] removeObserver:self name:@"WXPayError" object:nil];
 }
 
 @end

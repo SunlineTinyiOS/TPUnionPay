@@ -7,22 +7,25 @@
 
 
 ## Release Notes
-### 1.0.0   
+### 1.0.0  
 基于SDK 3.3.6版本 
-
+### 1.0.1  
+更新时间:2017年5月21号
+增加mode字段，当前视图控制器获取机制修改 
 
 
 ## Usage
+
     var union=new UnionPay();
-    union.tn="201605031034241756648";
+    union.tn="111111";    //tn信息,服务端生成
+    union.mode="00";       //模式 "00" 正式环境 "01"
     union.success=function(data){
-        log("success:"+data);
+    	window.alert('支付成功');
     }
     union.error=function(data){
-        log("error:"+data);
+      alert('支付失败');
     }
     union.pay();
-
 
 ## Example
 

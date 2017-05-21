@@ -14,6 +14,8 @@
 
 @property(nonatomic, strong) NSString *tn;
 
+@property(nonatomic, strong) NSString *mode;
+
 @property(nonatomic, strong) JSValue *success;
 
 @property(nonatomic, strong) JSValue *error;
